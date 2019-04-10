@@ -1,0 +1,38 @@
+{
+    "generator-jhipster": {
+        "promptValues": {
+            "packageName": "com.egs.passport",
+            "nativeLanguage": "en"
+        },
+        "jhipsterVersion": "5.8.2",
+        "applicationType": "monolith",
+        "baseName": "passport",
+        "packageName": "com.egs.passport",
+        "packageFolder": "com/egs/passport",
+        "serverPort": "8080",
+        "authenticationType": "jwt",
+        "cacheProvider": "ehcache",
+        "enableHibernateCache": true,
+        "websocket": false,
+        "databaseType": "sql",
+        "devDatabaseType": "postgresql",
+        "prodDatabaseType": "postgresql",
+        "searchEngine": false,
+        "messageBroker": false,
+        "serviceDiscoveryType": false,
+        "buildTool": "maven",
+        "enableSwaggerCodegen": false,
+        "jwtSecretKey": "MzQ3OGNlZTJiNGFjNTExYWIwOTliZThhNzFjYTQwMDFjMjM3MjU0MzYzZTNlY2Q1NTQ4YTAzNTk3ZmFlYmVkOWY1MWMzMDE4ZDlmOTc5NzhiNmRhZGEzMzNjMWNjYmUzZDI4N2VkYzZhNDZjOTJkZmJiY2I1ZTk5NTNjZjQxOGY=",
+        "clientFramework": "angularX",
+        "useSass": false,
+        "clientPackageManager": "npm",
+        "testFrameworks": ["protractor"],
+        "jhiPrefix": "jhi",
+        "entitySuffix": "",
+        "dtoSuffix": "DTO",
+        "otherModules": [],
+        "enableTranslation": true,
+        "nativeLanguage": "en",
+        "languages": ["en", "de"]
+    }
+}
