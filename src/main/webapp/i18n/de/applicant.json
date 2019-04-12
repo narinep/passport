@@ -1,0 +1,29 @@
+{
+    "passportApp": {
+        "applicant": {
+            "home": {
+                "title": "Applicants",
+                "createLabel": "Applicant erstellen",
+                "createOrEditLabel": "Applicant erstellen oder bearbeiten"
+            },
+            "created": "Applicant erstellt mit ID {{ param }}",
+            "updated": "Applicant aktualisiert mit ID {{ param }}",
+            "deleted": "Applicant gelöscht mit ID {{ param }}",
+            "delete": {
+                "question": "Soll Applicant {{ id }} wirklich aktualisieren?"
+            },
+            "update": {
+                "question": "Möchten Sie den Antragsteller wirklich aktualisieren ?"
+            },
+            "detail": {
+                "title": "Applicant"
+            },
+            "firstname": "Firstname",
+            "lastname": "Lastname",
+            "ssn": "Ssn",
+            "birthDate": "Birth Date",
+            "gender": "Gender",
+            "photo": "Photo"
+        }
+    }
+}

@@ -1,0 +1,46 @@
+{
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "firstname",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "lastname",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "ssn",
+            "fieldType": "BigDecimal",
+            "fieldValidateRules": [
+                "required",
+                "unique",
+                "max"
+            ],
+            "fieldValidateRulesMax": "99999"
+        },
+        {
+            "fieldName": "birthDate",
+            "fieldType": "LocalDate"
+        },
+        {
+            "fieldName": "gender",
+            "fieldType": "Gender",
+            "fieldValues": "MALE,FEMALE"
+        },
+        {
+            "fieldName": "photo",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20190410110538",
+    "dto": "no",
+    "searchEngine": false,
+    "service": "no",
+    "entityTableName": "applicant",
+    "databaseType": "sql",
+    "jpaMetamodelFiltering": false,
+    "pagination": "pagination"
+}
