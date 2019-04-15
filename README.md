@@ -6,8 +6,11 @@ This application was generated using JHipster 5.8.2, you can find documentation 
 
 Before you can build this project, you must install and configure the following dependencies on your machine:
 
-1.  [Node.js][]: We use Node to run a development web server and build the project.
-    Depending on your system, you can install Node either from source or as a pre-packaged bundle.
+1. Currently we need to have a [PostgreSQL](PostgreSQL) server installed and running locally which has
+   a [passport](passport) DataBase owned by the User with a Login Role [passport](passport).
+
+2. [Node.js][]: We use Node to run a development web server and build the project.
+   Depending on your system, you can install Node either from source or as a pre-packaged bundle.
 
 After installing Node, you should be able to run the following command to install development tools.
 You will only need to run this command when dependencies change in [package.json](package.json).

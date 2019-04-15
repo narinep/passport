@@ -119,6 +119,10 @@ export class ApplicantComponent implements OnInit, OnDestroy {
         return result;
     }
 
+    onSelect(applicant) {
+        this.router.navigate([`/applicant/${applicant.id}/edit`]);
+    }
+
     protected paginateApplicants(data: IApplicant[], headers: HttpHeaders) {
         this.links = this.parseLinks.parse(headers.get('link'));
         this.totalItems = parseInt(headers.get('X-Total-Count'), 10);
